@@ -52,4 +52,13 @@ private void Button_Hitung_Click(object sender, RoutedEventArgs e)
             resultLabel.Content = result;
         }
 ```
-sekian.
+
+## Latihan
+
+  - Mengapa perlu membuat class `CurrencyController.cs` pada percobaan 4 ?<br/>jawaban : Untuk memisahkan logic dari main source code sehingga codingan lebih rapih dan mudah untuk dirubah ketika akan melakukan pengembangan.
+  - Jelaskan kegunaan method `isAllowed` pada percobaan 4!
+    <br/>jawaban : method  `isAllowed`  berfungsi untuk mencocokkan apakah inputan dari textbox sesuai dengan regular expression angka yang dideklarasikan.
+  - Jelaskan secara singkat mengenai Regex pada percobaan 4!
+    <br/>jawaban : regex (regular expression) digunakan untuk memeriksa apakah sebuah string cocok dengan pola yang diberikan yaitu hanya dapat menerima inputan angka atau tidak.
+  - Buatlah class diagramnya pada percobaan 4! 
+  -<br/>jawaban : ![Alt text](D:/kuliah/semester-3/pemrograman-lanjut/classDiagram.jpg?raw=true "Title")
